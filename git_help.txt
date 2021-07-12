@@ -1,0 +1,62 @@
+Version Control using Git
+
+links to check out
+https://git-scm.com/docs
+https://levelup.gitconnected.com/using-git-commands-that-will-make-you-look-like-a-senior-developer-14247f4aca3b
+
+go to git-scm.com and download latest git
+use default settings through installation
+
+
+check git version: git --version
+check git settings: git config --list 
+
+#creating SSH key
+
+mdir .ssh (where to save rsa)
+ssh-keygen.exe (save to where ever; preferably under .ssh file)
+
+type id_rsa.pub
+
+#add this to ssh on github
+
+
+How to initialize git :
+git config --global user.name "<name>"
+git config --global user.email "<email>"
+git config --global push.default matching
+git config --gloval alias.co checkout
+
+git init
+
+
+How to add files to git :
+git add .
+git commit -am "<comments>"
+git push
+
+
+How to push it to github :
+git remote add origin <link>
+git push -u origin master
+
+
+How to set new branch :
+git checkout b- <branch name>
+git push -u origin <selected branch name>
+
+
+How to set git for new/different project :
+git remote set-url origin https://github.com/your/repository
+
+
+
+WHAT TO TALK ABOUT;
+
+AZURE DEVOPS, DEVSECOPS
+
+AZURE BOARDS(REVAMP), REPOS, GIT/HUB, ABIT OF PIPELINES, TEST PLANS??
+
+
+
+
